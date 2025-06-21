@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+        }
+
+.box {
+    border: 2px solid grey;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 90vw;       /* responsive width */
+    max-width: 400px;  /* prevent it from being too wide */
+    height: 80vh;      /* responsive height */
+    max-height: 600px; /* optional max height */
+    background-color:whitesmoke;
+    box-shadow:  4px 9px 15px 5px #aa5eb7;
+}
+
+      .img{
+        box-sizing: border box;
+        margin:10px;
+        
+      }
+      .text{
+        padding:10px;
+        margin: 5px;
+        font-family: "poppins";
+        font-size: smaller;
+      }
+      div div h3{
+        color:rgb(88, 88, 187);
+      }
+      div div h1{
+        color:rgb(153, 85, 218);
+      }
+      div div ul li{
+        display: inline-block;
+        margin: 10px;
+        padding:10px;
+        text-decoration: underline;
+        border:2px solid blue;
+        border-radius: 5px;
+      }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="img">
+            <img src="card.jpg" height="250px" width="auto">
+        </div>
+        <div class="text">
+            <h1>This is a sample card</h1>
+            <ul class="li">
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto enim, provident qui in corrupti sequi ipsam sapiente expedita, totam at voluptates facere similique.</h3>
+            <a href="https://google.com"><button>Read more</button></a>
+        </div>
+
+    </div>
+    
+</body>
+</html>
